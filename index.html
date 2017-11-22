@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hangman</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="sheet.css"/>
+</head>
+<body onload="startGame()">
+<h1>Hangman</h1>
+
+<button id="startButton" onclick="startGame()">Start Game</button>
+
+<select id="categories" onchange= "startGame(this.value)")>
+    <option value="0">select a category</option>
+    <option value="1">Fruit</option>
+    <option value="2">Animals</option>
+    <option value="3">Countries</option>
+</select>
+
+<select id="letter">
+</select>
+<button id="guessButton" onclick="guessLetter()">Guess letter!</button>
+<p id="guess"></p>
+<p id="howManyLeft">Guesses Left:</p>
+<p id="lengthOfWord"></p>
+<p id="titleOfGuessed">You have guessed:</p>
+<p id="guessedLetters"></p>
+<p id="wonLost"></p>
+<p id="image"></p>
+
+</body>
+</html>

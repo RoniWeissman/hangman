@@ -1,0 +1,49 @@
+body {
+    vertical-align: middle;
+    background: #ffe2e7;
+}
+
+p {
+    text-align: center;
+    color: cornflowerblue;
+    position: relative;
+    top: 100px;
+    left: 0px;
+}
+
+h1 {
+    text-align: center;
+    color: cornflowerblue;
+}
+
+#startButton {
+    position: relative;
+    top: 10px;
+    left: 580px;
+    width: 100px;
+    height: 40px;
+}
+
+#guessButton {
+    position: relative;
+    top: 70px;
+    left: 370px;
+    width: 100px;
+    height: 40px;
+}
+
+#categories {
+    position: relative;
+    top: 70px;
+    left: 372px;
+    width: 100px;
+    height: 40px;
+}
+
+#letter {
+    position: relative;
+    top: 70px;
+    left: 371px;
+    width: 100px;
+    height: 40px;
+}
